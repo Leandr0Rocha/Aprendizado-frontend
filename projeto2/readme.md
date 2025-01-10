@@ -1,4 +1,4 @@
-![alt text](image.png)
+![alt text](images/image.png)
 # Projeto 2 - Adivinhe o Número
 
 Este é um projeto simples de um jogo de adivinhação de números. O objetivo do jogo é adivinhar um número misterioso entre 1 e 1000.
