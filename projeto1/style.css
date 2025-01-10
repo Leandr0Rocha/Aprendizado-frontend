@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    font-family: monospace;
+}
+header{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 10px;
+    border-bottom: 2px dashed black;
+    background-color: white;
+}
+main{
+    padding-top: 100px;
+    text-align: center;
+}
+main h3{
+    font-size: 2em;
+    margin: 20px;
+}
+main button{
+    font-size: 2em;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+}
+main button:hover{
+    cursor:pointer;
+}
+@media (max-width: 600px){
+    main{
+        padding-top: 50px;
+    }
+    main h3{
+        font-size: 1.5em;
+    }
+    main button{
+        font-size: 1.5em;
+    }
+}
