@@ -11,6 +11,7 @@ function checarChute(){
 
     if(palpite == numeroAleatorio){
         mensagem.innerHTML = "Parabéns! Você acertou em " + tentativas + " tentativas!"
+        document.getElementById("palpite") = palpite
     } else if(palpite > numeroAleatorio){
         mensagem.innerHTML = "Tente um número menor!"
         maximo.innerHTML = " < " + palpite
@@ -18,4 +19,5 @@ function checarChute(){
         mensagem.innerHTML = "Tente um número maior!"
         minimo.innerHTML = palpite + " < "
     }
+    document.getElementById("palpite").value = ""
 }
